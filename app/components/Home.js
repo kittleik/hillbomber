@@ -1,16 +1,14 @@
 var React = require('react');
 var ReactRouter = require('react-router');
 var Link = ReactRouter.Link;
+var SkateMap = require('../components/Map')
 
 var blueBg = require('../styles').blueBg;
 
 function Home(props){
   return(
-    <div className="jumbotron col-sm-12 text-center" style={blueBg}>
-      <h1>
-        Hello World
-      </h1>
-      <p>Ja dette er spennende</p>
+    <div style={{height:'500px'}}>
+      <SkateMap />
     </div>
   )
 }
