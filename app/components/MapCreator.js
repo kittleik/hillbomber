@@ -10,12 +10,12 @@ var Polyline = Leaflet.Polyline;
 var position=[63.408047,10.404053]
 
 var MapCreator = React.createClass({
-  onClickMap:function(){
-
+  handleClick:function(){
+    
   },
   render:function(){
     return(
-      <Map center={position} zoom={13} style={{height:"100%"}} onClick={this.onClickMap}>
+      <Map center={position} zoom={13} style={{height:"100%"}} onClick={this.handleClick}>
         <TileLayer
           url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
