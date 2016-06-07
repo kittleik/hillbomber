@@ -6,9 +6,10 @@ var Main = React.createClass({
       <div>
         <nav className="navbar navbar-inverse">
           <div className="container-fluid">
-            <div className="navbar-header">
-              <a className="navbar-brand" href="#">Hillbomber</a>
-            </div>
+            <ul className="nav navbar-nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="#/createMap">Add Skate Route</a></li>
+            </ul>
           </div>
         </nav>
         {this.props.children}
