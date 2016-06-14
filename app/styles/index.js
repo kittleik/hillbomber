@@ -7,7 +7,7 @@ var styles = {
   },
   bottomRightPositioning:{
     position: 'absolute',
-    width: 400,
+    width: 200,
     top:0,
     right:0,
     zIndex: 1000

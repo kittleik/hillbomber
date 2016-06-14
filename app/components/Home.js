@@ -2,7 +2,6 @@ var React = require('react');
 var ReactRouter = require('react-router');
 var Link = ReactRouter.Link;
 var SkateMap = require('../components/Map');
-var Menu = require('../components/Menu');
 
 var database = require('../utils/database');
 
